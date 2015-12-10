@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Faces Configuration Only" version="2">
+    <Scope Scope="Faces Configuration Only">
+        <Node id="createCustomerOk.jsp" x="900" y="150" zoom="true"/>
+        <Node id="createCustomer.jsp" x="150" y="300" zoom="true"/>
+    </Scope>
+    <Scope Scope="Project">
+        <Node id="includes/navbar.jsp" x="650" y="150" zoom="true"/>
+        <Node id="includes/footer.jsp" x="400" y="150" zoom="true"/>
+        <Node id="includes/header.jsp" x="150" y="450" zoom="true"/>
+        <Node id="createCustomer.jsp" x="150" y="300" zoom="true"/>
+        <Node id="createCustomerOk.jsp" x="900" y="150" zoom="true"/>
+        <Node id="includes/customerList.xhtml" x="423" y="309" zoom="true"/>
+        <Node id="customerList.jsp" x="150" y="150" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations">
+        <Node id="createCustomerOk.jsp" x="900" y="150" zoom="true"/>
+        <Node id="createCustomer.jsp" x="150" y="300" zoom="true"/>
+    </Scope>
+</Scene>

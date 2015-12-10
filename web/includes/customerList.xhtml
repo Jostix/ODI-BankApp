@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    
+    <h:form id="frmCustomersList">
+        <h:dataTable id="dtCustomers" var="cust" value="#{CustomersBean.customers}" styleClass="table">
+            <h:column>
+                <f:facet name="header">
+                    <%= RB.getString("customer_list_number")%>
+                </f:facet>
+                <h:outputText id="oTxtNumber" value ="#{cust.number}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <%= RB.getString("customer_list_firstname")%>
+                </f:facet>
+                <h:outputText id="oTxtName" value ="#{cust.firstName}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <%= RB.getString("customer_list_lastname")%>
+                </f:facet>
+                <h:outputText id="oTxtLastname" value ="#{cust.lastName}"/>
+            </h:column>
+        </h:dataTable>
+    </h:form>
+
+</html>
